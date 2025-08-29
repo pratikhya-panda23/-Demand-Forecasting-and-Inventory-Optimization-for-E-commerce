@@ -1,0 +1,24 @@
+Data Science 2 - Dynamic Pricing Model for Local Events & Experiences
+Dynamic Pricing Model for Local Events & Experiences
+Objective
+Develop a dynamic pricing algorithm for local events (concerts, workshops, tours) based on real-time demand, competitor prices, and user sentiment, helping event organizers optimize revenue.
+Key Tasks
+Data Research: Scrape event listings, ticket prices, and availability from platforms like Eventbrite, Meetup, and local ticketing sites
+Demand Estimation: Use web search trends (Google Trends API), social media mentions, and sentiment from reviews to estimate demand fluctuations
+Pricing Model: Build machine learning models (regression, reinforcement learning) to suggest price adjustments dynamically
+Simulation: Create a pricing simulation environment to test strategy impact on attendance and revenue
+Dashboard: Build interactive dashboards showing demand trends, price elasticity, and suggested prices for organizers
+Data Collection
+Web scraping (BeautifulSoup, Selenium) for event and ticket data
+Google Trends API for demand signals
+Social media API or public review data for sentiment analysis
+Tools
+Python: requests, BeautifulSoup, Selenium, scikit-learn, TensorFlow/PyTorch (optional)
+APIs: Google Trends, Twitter API
+Dashboard: Streamlit or Power BI Desktop
+Environment: Jupyter, GitHub
+Deliverables
+Data scraper and preprocessor scripts
+Dynamic pricing model and simulation
+Dashboard to visualize insights and recommendations
+Documentation with setup instructions and model explanation
